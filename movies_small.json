@@ -1,0 +1,40 @@
+{
+  "Avatar" : {
+    "Jason" : 4,
+    "David" : 3,
+    "Hannah" : 5,
+    "Patrick" : 4,
+    "Moritz" : 4
+  },
+  "Skyfall" : {
+    "Jason" : 3,
+    "Hannah" : 3,
+    "Moritz" : 4
+  },
+  "Dark Knight" : {
+    "Jason" : 5,
+    "David" : 5,
+    "Hannah" : 3,
+    "Patrick" : 5,
+    "Moritz" : 4
+  },
+  "Fluch der Karibik" : {
+    "Jason" : 5,
+    "David" : 4,
+    "Hannah" : 4,
+    "Patrick" : 3,
+    "Moritz" : 4
+  },
+  "Oben" : {
+    "Jason" : 4,
+    "David" : 2,
+    "Hannah" : 3,
+    "Patrick" : 4
+  },
+  "Inception" : {
+    "Jason" : 4,
+    "Hannah" : 5,
+    "Patrick" : 5,
+    "Moritz" : 5
+  }
+}

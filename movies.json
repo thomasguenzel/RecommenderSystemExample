@@ -1,0 +1,135 @@
+{
+  "Avatar" : {
+    "Jason" : 4,
+    "Martin" : 4,
+    "Sabine" : 5,
+    "Frank" : 4,
+    "Thomas" : 5,
+    "David" : 3,
+    "David B." : 4,
+    "Hannah" : 5,
+    "Patrick" : 4,
+    "Moritz" : 4
+  },
+  "Titanic" : {
+    "Martin" : 1,
+    "Sabine" : 2,
+    "Frank" : 2,
+    "David B." : 2,
+    "Hannah" : 2
+  },
+  "The Avengers" : {
+    "Jason" : 4,
+    "Martin" : 2,
+    "Thomas" : 3,
+    "David B." : 3,
+    "Hannah" : 4,
+    "Patrick" : 3,
+    "Moritz" : 4 
+  },
+  "Frozen" : {
+    "Thomas" : 4,
+    "David" : 4,
+    "Hannah" : 1,
+    "Patrick" : 3,
+  },
+  "Skyfall" : {
+    "Jason" : 3,
+    "Martin" : 5,
+    "Sabine" : 5,
+    "Frank" : 4,
+    "Thomas" : 3,
+    "Hannah" : 3,
+    "Moritz" : 4
+  },
+  "Dark Knight" : {
+    "Jason" : 5,
+    "Martin" : 2,
+    "Sabine" : 3,
+    "Frank" : 1,
+    "Thomas" : 5,
+    "David" : 5,
+    "David B." : 5,
+    "Hannah" : 3,
+    "Patrick" : 5,
+    "Moritz" : 4
+  },
+  "Fluch der Karibik" : {
+    "Jason" : 5,
+    "Martin" : 4,
+    "Sabine" : 2,
+    "Frank" : 1,
+    "Thomas" : 3,
+    "David" : 4,
+    "David B." : 4,
+    "Hannah" : 4,
+    "Patrick" : 3,
+    "Moritz" : 4
+  },
+  "Toy Story" : {
+    "Jason" : 5,
+    "Martin" : 4,
+    "Sabine" : 4,
+    "Frank" : 4,
+    "Thomas" : 5,
+    "David" : 4,
+    "David B." : 4,
+    "Patrick" : 4,
+  },
+  "Star Wars" : {
+    "Jason" : 2,
+    "Martin" : 1,
+    "Sabine" : 1,
+    "Frank" : 1,
+    "David B." : 4,
+    "Moritz" : 2
+  },
+  "Jurassic Park" : {
+    "Jason" : 1,
+    "Sabine" : 1,
+    "Frank" : 1,
+    "David" : 5,
+    "David B." : 4
+  },
+  "König der Löwen" : {
+    "Jason" : 5,
+    "Martin" : 3,
+    "Frank" : 1,
+    "David" : 4,
+    "Hannah" : 5,
+    "Patrick" : 4
+  },
+  "Findet Nemo" : {
+    "Jason" : 5,
+    "Martin" : 3,
+    "Sabine" : 4,
+    "Frank" : 4,
+    "Thomas" : 5,
+    "David" : 4,
+    "David B." : 4,
+    "Hannah" : 5,
+    "Patrick" : 3,
+    "Moritz" : 4
+  },
+  "Oben" : {
+    "Jason" : 4,
+    "Martin" : 5,
+    "Sabine" : 5,
+    "Frank" : 5,
+    "Thomas" : 5,
+    "David" : 2,
+    "Hannah" : 3,
+    "Patrick" : 4,
+  },
+  "Inception" : {
+    "Jason" : 4,
+    "Martin" : 5,
+    "Sabine" : 3,
+    "Frank" : 1,
+    "Thomas" : 5,
+    "David B." : 5,
+    "Hannah" : 5,
+    "Patrick" : 5,
+    "Moritz" : 5
+  }
+}

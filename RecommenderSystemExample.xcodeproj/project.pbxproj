@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0B2EF81D1B187FEE002F4E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF81C1B187FEE002F4E14 /* main.m */; };
+		0B2EF82D1B1881AB002F4E14 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF8241B1881AB002F4E14 /* Item.m */; };
+		0B2EF82E1B1881AB002F4E14 /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF8261B1881AB002F4E14 /* Rating.m */; };
+		0B2EF82F1B1881AB002F4E14 /* Recommender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF8281B1881AB002F4E14 /* Recommender.m */; };
+		0B2EF8301B1881AB002F4E14 /* Similarity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF82A1B1881AB002F4E14 /* Similarity.m */; };
+		0B2EF8311B1881AB002F4E14 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2EF82C1B1881AB002F4E14 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		0B2EF8191B187FEE002F4E14 /* RecommenderSystemExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecommenderSystemExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2EF81C1B187FEE002F4E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B2EF8231B1881AB002F4E14 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		0B2EF8241B1881AB002F4E14 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		0B2EF8251B1881AB002F4E14 /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		0B2EF8261B1881AB002F4E14 /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
+		0B2EF8271B1881AB002F4E14 /* Recommender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recommender.h; sourceTree = "<group>"; };
+		0B2EF8281B1881AB002F4E14 /* Recommender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recommender.m; sourceTree = "<group>"; };
+		0B2EF8291B1881AB002F4E14 /* Similarity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Similarity.h; sourceTree = "<group>"; };
+		0B2EF82A1B1881AB002F4E14 /* Similarity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Similarity.m; sourceTree = "<group>"; };
+		0B2EF82B1B1881AB002F4E14 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0B2EF82C1B1881AB002F4E14 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				0B2EF81C1B187FEE002F4E14 /* main.m */,
+				0B2EF8271B1881AB002F4E14 /* Recommender.h */,
+				0B2EF8281B1881AB002F4E14 /* Recommender.m */,
+				0B2EF8231B1881AB002F4E14 /* Item.h */,
+				0B2EF8241B1881AB002F4E14 /* Item.m */,
+				0B2EF8251B1881AB002F4E14 /* Rating.h */,
+				0B2EF8261B1881AB002F4E14 /* Rating.m */,
+				0B2EF8291B1881AB002F4E14 /* Similarity.h */,
+				0B2EF82A1B1881AB002F4E14 /* Similarity.m */,
+				0B2EF82B1B1881AB002F4E14 /* User.h */,
+				0B2EF82C1B1881AB002F4E14 /* User.m */,
 			);
 			path = RecommenderSystemExample;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2EF8301B1881AB002F4E14 /* Similarity.m in Sources */,
+				0B2EF82E1B1881AB002F4E14 /* Rating.m in Sources */,
+				0B2EF8311B1881AB002F4E14 /* User.m in Sources */,
+				0B2EF82F1B1881AB002F4E14 /* Recommender.m in Sources */,
+				0B2EF82D1B1881AB002F4E14 /* Item.m in Sources */,
 				0B2EF81D1B187FEE002F4E14 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +265,7 @@
 				0B2EF8221B187FEE002F4E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

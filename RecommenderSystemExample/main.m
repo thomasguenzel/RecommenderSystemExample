@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Recommender.h"
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
-	    // insert code here...
-	    NSLog(@"Hello, World!");
+#warning Update Path to JSON-File
+		NSData *jsonData = [NSData dataWithContentsOfFile:@"<PATH-TO-JSON>/movies_small.json"];
+		Recommender *recommender = [[Recommender alloc] initFromJSON:jsonData];
+		NSLog(@"%@",recommender);
+		
+		[recommender calculateSimilarities];
+		
+		User *user = [recommender userWithName:@"Moritz"];
+		Item *item = [recommender itemWithName:@"Inception"];
+		double prediction = [user predictionForItem:item];
+		NSLog(@"%@ will probably give %@ %f stars",user.name,item.name,prediction);
 	}
     return 0;
 }
